@@ -116,6 +116,11 @@
 .page-container .article-container .article-content a:hover {
   opacity: 0.7;
 }
+@media (max-width: 940px) {
+  .page-container .article-container .article-content a {
+    width: 55%;
+  }
+}
 .page-container .article-container .article-img {
   width: 45%;
 }

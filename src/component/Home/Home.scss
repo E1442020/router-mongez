@@ -105,6 +105,9 @@
         &:hover {
           opacity: 0.7;
         }
+        @include breakpoints(mobile) {
+          width: 55%;
+        }
       }
     }
     .article-img {
